@@ -1,25 +1,25 @@
 {
-  "name": "Base",
-  "version": "1.0.0",
-  "description": "Basic structure for Express web apps.",
+  "name": "NodeApp",
+  "version": "0.0.1",
+  "description": "Server Development Project app",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "test": "node_modules/.bin/mocha tests/**"
   },
   "keywords": [
-    "base",
+    "cloud",
     "project",
     "node",
-    "express",
-    "structure"
+    "express"
   ],
-  "author": "Terlici Ltd.",
+  "author": "Damir Mustafin",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.12.3",
     "express": "^4.12.3",
-    "jade": "^1.9.2"
+    "jade": "^1.9.2",
+    "nodemon": "*"
   },
   "devDependencies": {
     "mocha": "^2.2.4",
